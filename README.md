@@ -95,3 +95,23 @@ a debugger will open up in the terminal, where you can inspect values:
 
 Step to the next line with `next`. Resume regular code execution or tests with
 `continue`.
+
+## TODO
+
+- [ ] Must login to vote ![Login](Login.png)
+    [ ] Email, fake password, zip code required
+- [ ] Voters see list of festival performers ![Voting](Voting.png)
+    - [ ] Voter can add another performer
+    - [ ] All performers are write-in votes
+    - [ ] 1 vote per email address
+    - [ ] Max 10 unique performers
+- [ ] Current results per candidate viewable on unauthenticated dashboard ![Results](Results.png)
+
+**NOTE:** Image links only work if there is a symlink (e.g. `ln -s ../actblue-voting-app-assests/Login.png Login.png`)
+
+### Extra Credit
+
+- [ ] Account for things like omitted middle initials/names, typos, or any other reason why a good faith but inaccurate write-in entry could lead to problems.
+- [ ] Write some tests
+- [ ] Deploy this somewhere
+- [ ] Make it [WCAG compliant](https://www.w3.org/WAI/standards-guidelines/wcag/)
