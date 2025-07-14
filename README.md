@@ -98,14 +98,14 @@ Step to the next line with `next`. Resume regular code execution or tests with
 
 ## TODO
 
-- [ ] Must login to vote ![Login](Login.png)
-    [ ] Email, fake password, zip code required
-- [ ] Voters see list of festival performers ![Voting](Voting.png)
-    - [ ] Voter can add another performer
-    - [ ] All performers are write-in votes
-    - [ ] 1 vote per email address
+- [x] Must login to vote ![Login](Login.png)
+    - [x] Email, fake password, zip code required
+- [x] Voters see list of festival performers ![Voting](Voting.png)
+    - [x] Voter can add another performer
+    - [x] All performers are write-in votes
+    - [x] 1 vote per email address
     - [ ] Max 10 unique performers
-- [ ] Current results per candidate viewable on unauthenticated dashboard ![Results](Results.png)
+- [x] Current results per candidate viewable on unauthenticated dashboard ![Results](Results.png)
 
 **NOTE:** Image links only work if there is a symlink (e.g. `ln -s ../actblue-voting-app-assests/Login.png Login.png`)
 
